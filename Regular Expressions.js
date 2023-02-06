@@ -16,3 +16,8 @@ let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString);
 ________________________________________
 
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Change this line
+let result = fccRegex.test(myString);
+________________________________________
+
