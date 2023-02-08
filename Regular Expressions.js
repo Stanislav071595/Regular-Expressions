@@ -86,3 +86,8 @@ let lastRegex = /caboose$/; // Change this line
 let result = lastRegex.test(caboose);
 ________________________________________
 
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/ig; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
+________________________________________
+
