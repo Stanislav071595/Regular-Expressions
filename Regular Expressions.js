@@ -144,3 +144,8 @@ let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
 ________________________________________
 
+let sampleWord = "astronaut";
+let pwRegex =  /(?=\w{6})(?=\w*\d{2})/;
+let result = pwRegex.test(sampleWord);
+________________________________________
+
