@@ -8,7 +8,9 @@ ________________________________________
 
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /Waldo is hiding/; // Change this line
-let result = waldoRegex.test(waldoIsHiding);
+let result = waldoRegex.test(waldoIsHiding);let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);
 ________________________________________
 
 let petString = "James has a pet cat.";
@@ -125,5 +127,10 @@ ________________________________________
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\sno/; // Change this line
 let result = ohRegex.test(ohStr);
+________________________________________
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);
 ________________________________________
 
